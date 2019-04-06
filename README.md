@@ -139,7 +139,7 @@ let store = createStore();
 store.dispatch({ type: '@@INIT' });
 ```
 
-So we have this object called a store which contains of our application's
+So we have this object called a store which contains all of our application's
 state. Right now we can dispatch actions that modify that state, but we need
 some way to retrieve data from the store. To do this, our store should respond
 to one other method, `getState`. This method simply returns the state, which we can use elsewhere in our application.
